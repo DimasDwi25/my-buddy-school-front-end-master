@@ -1,0 +1,415 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Course</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/style/bootstrap-drawer.css">
+    <link rel="stylesheet" href="../../assets/style/styles.css">
+    <link rel="stylesheet" href="../../assets/style/styles2.css">
+    <link rel="stylesheet" href="../../assets/style/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+</head>
+
+<body>
+
+    <header-after></header-after>
+
+    <section class="cover-all dashboards">
+        <div class="alert d-sm-none d-none d-md-block" role="alert">
+            <div class="row justify-content-center">
+                <img src="../../assets/img/warning.png" alt="">
+                <p>Please complete your profile data</p>
+            </div>
+            <div class="hidden">
+                <div class="row">
+                    <div class="button">
+                        <button class="btn">Change Profile</button>
+                    </div>
+                    <div class="button-close">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="margin-top: -35px;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>      
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="inners">
+                    <div class="box-content">
+                        <h4>Indonesian Buddy School system</h4>
+                        <p>BSS adalah suatu sistem jejaring yang dikembangkan dengan pola kemitraan (partnership) antar
+                            sekolah, antar pendidik, dan antar siswa, dan bahkan antar orang tua peserta didik yang
+                            ingin belajar untuk memajukan pendidikan anaknya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image"><img src="../../assets/img/MaskGroups.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard-sec-1">
+        <div class="prelative container">
+            <div class="charts-box">
+                <div class="juduls">
+                    <h4>All Course</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="chart">
+                            <canvas id="oilChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="box-content">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="texts">
+                                        <h5>Primary School (SD)</h5>
+                                        <h6>2 Course</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="texts">
+                                        <h5>Junior High School (SMP)</h5>
+                                        <h6>3 Course</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="texts">
+                                        <h5 style="color: orange;">Senior High School (SMA)</h5>
+                                        <h6>1 Course</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="texts">
+                                        <h5 style="color: plum;">Senior High School (SMA)</h5>
+                                        <h6>3 Course</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="texts">
+                                        <h5 style="color: rebeccapurple;">Senior High School (SMA)</h5>
+                                        <h6>1 Course</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footerss">
+                            <div class="row">
+                                <div class="col-md-4 col-4">
+                                    <div class="text2">
+                                        <h6>Active</h6>
+                                        <p>6 Course</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-4">
+                                    <div class="text2">
+                                        <h6>Non Active</h6>
+                                        <p>4 Course</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-4">
+                                    <div class="text2">
+                                        <h6>Total Course</h6>
+                                        <p>10 Course</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard-sec-2">
+        <div class="prelative container">
+            <div class="courses">
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <h5>My Courses</h5>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <a href="#">
+                            <h6>See More</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="row no-gutters pb-5">
+                    <div class="col-md-3 col-6">
+                        <div class="box-content mb-3">
+                            <img src="../../assets/img/Frames4.jpg" alt="">
+                            <div class="inss">
+                                <h4>Proses Fotosintesis pada Tanaman</h4>
+                                <h5>ENGLISH LANGUAGE</h5>
+                                <h6>Primary School (SD)</h6>
+                                <div class="author">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-1 col-1">
+                                            <img src="../../assets/img/35x35.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <div class="texts">
+                                                <h3>Hayley Williams</h3>
+                                                <p>Tutor</p>
+                                                <div class="disable d-md-none d-sm-block">
+                                                    <button class="btn btn-danger">
+                                                        Disable
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="disable d-sm-none d-none d-md-block">
+                                    <button class="btn btn-danger">
+                                        Disable
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="box-content mb-3">
+                            <img src="../../assets/img/Frames4.jpg" alt="">
+                            <div class="inss">
+                                <h4>Proses Fotosintesis pada Tanaman</h4>
+                                <h5>ENGLISH LANGUAGE</h5>
+                                <h6>Primary School (SD)</h6>
+                                <div class="author">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-1 col-1">
+                                            <img src="../../assets/img/35x35.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <div class="texts">
+                                                <h3>Hayley Williams</h3>
+                                                <p>Tutor</p>
+                                                <div class="activate d-md-none d-sm-block">
+                                                    <button class="btn btn-primary">Activate</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activate d-sm-none d-none d-md-block">
+                                    <button class="btn btn-primary">Activate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="box-content mb-3">
+                            <img src="../../assets/img/Frames4.jpg" alt="">
+                            <div class="inss">
+                                <h4>Proses Fotosintesis pada Tanaman</h4>
+                                <h5>ENGLISH LANGUAGE</h5>
+                                <h6>Primary School (SD)</h6>
+                                <div class="author">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-1 col-1">
+                                            <img src="../../assets/img/35x35.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <div class="texts">
+                                                <h3>Hayley Williams</h3>
+                                                <p>Tutor</p>
+                                                <div class="activate d-md-none d-sm-block">
+                                                    <button class="btn btn-primary">Activate</button>
+                                                </div>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activate d-sm-none d-none d-md-block">
+                                    <button class="btn btn-primary">Activate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="box-content mb-3">
+                            <img src="../../assets/img/Frames4.jpg" alt="">
+                            <div class="inss">
+                                <h4>Proses Fotosintesis pada Tanaman</h4>
+                                <h5>ENGLISH LANGUAGE</h5>
+                                <h6>Primary School (SD)</h6>
+                                <div class="author">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-1 col-1">
+                                            <img src="../../assets/img/35x35.png" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-9">
+                                            <div class="texts">
+                                                <h3>Hayley Williams</h3>
+                                                <p>Tutor</p>
+                                                <div class="activate d-md-none d-sm-block">
+                                                    <button class="btn btn-primary">Activate</button>
+                                                </div>
+                                            </div>           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="activate d-sm-none d-none d-md-block">
+                                    <button class="btn btn-primary">Activate</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="discussion">
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                        <h5>Recently Discussion</h5>
+                    </div>
+                    <div class="col-md-6 col-6">
+                        <a href="#">
+                            <!-- <h6>See More</h6> -->
+                        </a>
+                    </div>
+                </div>
+                <div class="discussion-box">
+                    <div class="inners">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titles">
+                                    <ul>
+                                        <li>
+                                            <div class="images">
+                                                <img src="../../assets/img/Ellipse84.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="conts">
+                                                <h4>Dimas</h4>
+                                                <h6>Student</h6>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="date">
+                                                <p>May 14, 2020 12:53</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content">
+                                    <h5>Bagaimana cara mempelajari fotosistesis?</h5>
+                                    <p>Fotosintesis is simply dummy text of the printing and typesetting industry Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s remaining
+                                        essentially unchanged. It was popularised in the 1960s with the release of
+                                        Letraset
+                                        sheets containing Lorem Ipsum passages, and more recently with desktop
+                                        publishing
+                                        software like of Lorem Ipsum........</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="responses">
+                        <div class="inst">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="accordion" id="faq">
+                                    <div class="card">
+                                        <div class="card-header" id="faqhead2">
+                                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse"
+                                                data-target="#faq2" aria-expanded="true" aria-controls="faq2">Rensponses
+                                                (2)</a>
+                                        </div>
+
+                                        <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
+                                            <div class="card-body">
+                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                terry richardson ad squid.
+                                                3 wolf
+                                                moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                                quinoa nesciunt laborum
+                                                eiusmod.
+                                                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                                single-origin coffee nulla
+                                                assumenda
+                                                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                                anderson cred nesciunt
+                                                sapiente ea
+                                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                                beer farm-to-table, raw
+                                                denim
+                                                aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                                labore sustainable VHS.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer-component></footer-component>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/index.js"></script>
+    <script src="../../assets/js/bootstrap-drawer.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/footer.js"></script>
+</body>
+
+<script>
+    var oilCanvas = document.getElementById("oilChart");
+  
+  Chart.defaults.global.defaultFontFamily = "Lato";
+  Chart.defaults.global.defaultFontSize = 18;
+  
+  var oilData = {
+      labels: [     
+      ],
+      datasets: [
+          {
+              data: [133.3, 86.2, 52.2, 51.2, 50.2],
+              backgroundColor: [
+                  "#FF6384",
+                  "#63FF84",
+                  "#84FF63",
+                  "#8463FF",
+                  "#6384FF"
+              ]
+          }]
+  };
+  
+  var pieChart = new Chart(oilCanvas, {
+    type: 'pie',
+    data: oilData
+  });
+    </script>
+
+</html>
