@@ -4235,7 +4235,7 @@ ul.navbar-nav.ml-auto li.nav-item {
   line-height: 22px;
   letter-spacing: -0.1px;
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .cover-all .inners .box-content ul{
   margin-top: 40px;
@@ -4251,6 +4251,7 @@ ul.navbar-nav.ml-auto li.nav-item {
   line-height: 24px;
   color: #FFFFFF;
 }
+
 .dets-course .box-content .ins {
   max-width: 400px;
   margin-bottom: 30px;

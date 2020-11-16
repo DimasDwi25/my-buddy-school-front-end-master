@@ -47,3 +47,5 @@ class ModalsQuit extends HTMLElement {
 }
 customElements.define('modal-take', ModalsTake);
 customElements.define('modal-quit', ModalsQuit);
+
+
