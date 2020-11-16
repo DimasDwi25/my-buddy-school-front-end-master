@@ -3211,7 +3211,7 @@ div#ModalQuit .modal-content .modal-footer button.confirms:hover{
   display: block;
   position: relative;
 }
-.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans {
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan a.pilgans {
   margin-bottom: 15px;
   width: 100%;
   height: 56px;
@@ -3224,10 +3224,13 @@ div#ModalQuit .modal-content .modal-footer button.confirms:hover{
   background: #E4E4E4;
   border-radius: 5px;
 }
-.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans p.pil-2 {
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn.active{
+  background: #B1DAFF;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan a.pilgans p.pil-2 {
   text-align: left;
 }
-.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans:hover {
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan a.pilgans:hover {
   background: #B1DAFF;
 }
 .courses-insides.ujians .prelative.container .container-soal .btn-prev-next {
@@ -6905,7 +6908,7 @@ div#ModalDelete .modal-content .modal-footer button.confirms {
   display: block;
   position: relative;
 }
-.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans {
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan a.pilgans {
   margin-bottom: 15px;
   width: 100%;
   height: 56px;
@@ -6918,12 +6921,16 @@ div#ModalDelete .modal-content .modal-footer button.confirms {
   background: #E4E4E4;
   border-radius: 5px;
 }
-.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans p.pil-2 {
-  text-align: left;
-}
-.courses-insides.ujians .prelative.container .container-soal .soal .pilgan button.pilgans:hover {
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn.active{
   background: #B1DAFF;
 }
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan a.pilgans p.pil-2 {
+  text-align: left;
+}
+.courses-insides.ujians .prelative.container .container-soal .soal .pilgan a.pilgans:hover {
+  background: #B1DAFF;
+}
+
 .courses-insides.ujians .prelative.container .container-soal .btn-prev-next {
   width: 100%;
   display: block;
@@ -7788,7 +7795,7 @@ section.message-breadcrumb .content-message .select-one .inns p {
   text-transform: capitalize;
   color: #5C5C5C;
 }
-.courses-insides .prelative.container .container-soal .soal .pilgan button.pilgans {
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn {
   margin-bottom: 15px;
   width: 100%;
   height: 56px;
@@ -7801,12 +7808,19 @@ section.message-breadcrumb .content-message .select-one .inns p {
   background: #E4E4E4;
   border-radius: 5px;
 }
-.courses-insides .prelative.container .container-soal .soal .pilgan button.pilgans p.pil-2 {
-  text-align: left;
-}
-.courses-insides .prelative.container .container-soal .soal .pilgan button.pilgans:hover {
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn.active{
   background: #B1DAFF;
 }
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn.active{
+  background: #B1DAFF;
+}
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn p.pil-2 {
+  text-align: left;
+}
+.courses-insides .prelative.container .container-soal .soal .pilgan a.btn:hover {
+  background: #B1DAFF;
+}
+
 .courses-insides .prelative.container .card{
   margin-bottom: 30px;
 }
