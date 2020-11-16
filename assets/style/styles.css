@@ -8241,5 +8241,33 @@ div#AddQuestion .modal-content .modal-body .form-group .list span{
   text-transform: capitalize;
   color: #5C5C5C;
 }
+.courses-insides.quiz-list-backs .prelative.container .card.form-edit .card-body .container-soal .soal fieldset {
+  margin-top: 50px;
+}
+.courses-insides.quiz-list-backs .prelative.container .card.form-edit .card-body .container-soal .soal .form-group .form-check label:hover{
+  background: #B1DAFF;
+}
+.courses-insides.quiz-list-backs .prelative.container .card.form-edit .card-body .container-soal .soal .form-group .form-check label{
+  margin-bottom: 15px;
+  width: 100%;
+  height: 56px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #5C5C5C;
+  background: #E4E4E4;
+  border-radius: 5px;
+}
+.courses-insides.quiz-list-backs .prelative.container .card.form-edit .card-body .container-soal .soal .form-group .form-check .list-group-item.active{
+  background: #B1DAFF;
+}
+.courses-insides.quiz-list-backs .prelative.container .card.form-edit .card-body .container-soal .soal .form-group .form-check .list-item.active{
+  background: #B1DAFF;
+}
+.courses-insides.quiz-list-backs .prelative.container .card.form-edit .card-body .container-soal .soal .form-group .form-check input{
+  display: none;  
+}
 
 
