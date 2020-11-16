@@ -182,8 +182,8 @@
                                                 </div>
                                                 <div class="images"><img src="../../assets/img/bio.png" alt=""></div>
                                                 <div class="pilgan list-group">
-                                                    <a class="btn list-group-item  
-                                                    list-group-item-action  
+                                                    <a class="btn list-group-items  
+                                                    list-group-items-action  
                                                     flex-column  
                                                     align-items-start">
                                                         <div class="row no-gutters">
@@ -195,7 +195,7 @@
                                                             </div>
                                                         </div>
                                                     </a>
-                                                    <a class="btn list-group-item  
+                                                    <a class="btn list-group-items  
                                                     list-group-item-action  
                                                     flex-column  
                                                     align-items-start">
@@ -208,7 +208,7 @@
                                                             </div>
                                                         </div>
                                                     </a>
-                                                    <a class="btn list-group-item  
+                                                    <a class="btn list-group-items 
                                                     list-group-item-action  
                                                     flex-column  
                                                     align-items-start">
@@ -221,7 +221,7 @@
                                                             </div>
                                                         </div>
                                                     </a>
-                                                    <a class="btn list-group-item  
+                                                    <a class="btn list-group-items 
                                                     list-group-item-action  
                                                     flex-column  
                                                     align-items-start">
@@ -234,7 +234,7 @@
                                                             </div>
                                                         </div>
                                                     </a>
-                                                    <a class="btn list-group-item  
+                                                    <a class="btn list-group-items  
                                                     list-group-item-action  
                                                     flex-column  
                                                     align-items-start">
@@ -397,6 +397,21 @@
         // Add 'active' tag for currently selected item 
         this.classList.add("active"); 
     }); 
-</script> 
+</script>
+<script> 
+    $(".list-group-items").click(function() { 
+          
+        // Select all list items 
+        var listItems = $(".list-group-items"); 
+          
+        // Remove 'active' tag for all list items 
+        for (let i = 0; i < listItems.length; i++) { 
+            listItems[i].classList.remove("active"); 
+        } 
+          
+        // Add 'active' tag for currently selected item 
+        this.classList.add("active"); 
+    }); 
+</script>  
 
 </html>
