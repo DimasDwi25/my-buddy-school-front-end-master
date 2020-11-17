@@ -1417,6 +1417,15 @@ ul.navbar-nav.mr-auto li.nav-item {
   border-bottom: 6px solid #c4c4c4;
   height: 145px;
 }
+.form-alls .contents-regist .inners .box-context .logos-svg .inners-logos .form-group .form-check input{
+  display: none;  
+}
+.form-alls .contents-regist .inners .box-context .logos-svg .list-item.active{
+  border-bottom: 6px solid #00A2E9;
+}
+.form-alls .contents-regist .inners .box-context .logos-svg .list-group.active{
+  border-bottom: 6px solid #00A2E9;
+}
 .form-alls .contents-regist .inners .box-context .logos-svg .inners-logos a p {
   text-align: center;
   font-style: normal;
