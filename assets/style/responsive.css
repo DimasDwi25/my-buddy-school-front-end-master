@@ -2137,6 +2137,13 @@
     color: white;
     font-weight: bold;
   }
+  section.message-breadcrumb .content-message .write img {
+    float: right;
+    margin-top: 5px;
+  }
+  section.message-breadcrumb .content-message .write textarea{
+    width: 85%;
+  }
 }
 @media (max-width: 380px) {
   .landing-sec-5 .prelative.container .box-content {

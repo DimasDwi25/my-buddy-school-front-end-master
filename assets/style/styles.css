@@ -3784,9 +3784,8 @@ section.message-breadcrumb .content-message .write textarea {
   padding-left: 15px;
 }
 section.message-breadcrumb .content-message .write img {
-  margin-top: -30px;
-  position: relative;
-  margin-left: 20px;
+  float: right;
+  
 }
 section.message-breadcrumb .content-message .select-one {
   background-color: #EFF6FB;
@@ -3869,13 +3868,11 @@ section.message-breadcrumb .content-message .select-one .inns p {
   float: left;
   margin-right: 10px;
 }
-.modal .modal-dialog .modal-content .no-gutters .dropdown .dropdown-menu .dropdown-item:hover{
+.modal .modal-dialog .modal-content .no-gutters .select option:hover{
   background: #B1DAFF;
 }
-.modal .modal-dialog .modal-content .no-gutters .dropdown .dropdown-menu .dropdown-item.list-item.active{
-  background: #B1DAFF;
-}
-.modal .modal-dialog .modal-content .no-gutters .dropdown .dropdown-menu .dropdown-item h6{
+
+.modal .modal-dialog .modal-content .no-gutters .select option{
   margin-top: 20px;
   padding-right: 10px;
   
