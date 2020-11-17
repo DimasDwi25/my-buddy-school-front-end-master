@@ -83,9 +83,25 @@
                         </div>
                         <div class="card form-edit">
                             <div class="card-body">
-                                <a href="#" style="float: right;">
-                                    <img src="../../assets/img/titiktiga.png" width="24px" alt="">
-                                </a>
+                                <li class="nav-item dropdown" style="display: block;">
+                                    <a href="#" style="float: right;" class="nav-link d-flex flex-row align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../../assets/img/titiktiga.png" width="24px" alt="">
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="../../assets/img/pencil.png" alt="">  
+                                            Edit
+                                        </a>
+                                        <a class="dropdown-item" href="#"> 
+                                            <img src="../../assets/img/Vector (4).png" alt="">  
+                                            Activate
+                                        <a class="dropdown-item" href="#">
+                                            <img src="../../assets/img/trash.png" alt="">
+                                            Delete</a>
+                                        </a>
+                                    </div>
+                                </li>
+        
                                 <div class="container-soal">
                                     <div class="row ">
                                         <div class="col-md-12">
@@ -110,7 +126,7 @@
                                                             <div class="form-check" style="margin-bottom: 20px;">
                                                                 <input class="form-check-input" type="radio"
                                                                     name="gridRadios" id="gridRadios2" value="option2">
-                                                                <label class="form-check-label form-control list-group-item"
+                                                                <label class="form-check-label form-control list-group-item active"
                                                                     for="gridRadios2">
                                                                     <span>B.</span>
                                                                     Evaluasi Dan Adaptasi
@@ -155,9 +171,24 @@
 
                         <div class="card form-edit">
                             <div class="card-body">
-                                <a href="#" style="float: right;">
-                                    <img src="../../assets/img/titiktiga.png" width="24px" alt="">
-                                </a>
+                                <li class="nav-item dropdown" style="display: block;">
+                                    <a href="#" style="float: right;" class="nav-link d-flex flex-row align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../../assets/img/titiktiga.png" width="24px" alt="">
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">
+                                            <img src="../../assets/img/pencil.png" alt="">  
+                                            Edit
+                                        </a>
+                                        <a class="dropdown-item" href="#"> 
+                                            <img src="../../assets/img/Vector (4).png" alt="">  
+                                            Activate
+                                        <a class="dropdown-item" href="#">
+                                            <img src="../../assets/img/trash.png" alt="">
+                                            Delete</a>
+                                        </a>
+                                    </div>
+                                </li>
                                 <div class="container-soal">
                                     <div class="row">
                                         <div class="col-md-12">
@@ -200,7 +231,7 @@
                                                             <div class="form-check" style="margin-bottom: 20px;">
                                                                 <input class="form-check-input" type="radio"
                                                                     name="gridRadios" id="gridRadios9" value="option9">
-                                                                <label class="form-check-label form-control list-item"
+                                                                <label class="form-check-label form-control list-item active"
                                                                     for="gridRadios9">
                                                                     <span>D.</span>
                                                                     Evaluasi Dan Adaptasi
@@ -347,42 +378,12 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="../../assets/js/index.js"></script>
     <script src="../../assets/js/bootstrap-drawer.js"></script>
-    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/headerguru.js"></script>
     <script src="../../assets/js/footer.js"></script>
     
     <script src="../../assets/js/modalsguru.js"></script>
 
 </body>
-<script>
-    $(".list-group-item").click(function () {
 
-        // Select all list items 
-        var listItems = $(".list-group-item");
-
-        // Remove 'active' tag for all list items 
-        for (let i = 0; i < listItems.length; i++) {
-            listItems[i].classList.remove("active");
-        }
-
-        // Add 'active' tag for currently selected item 
-        this.classList.add("active");
-    });
-</script>
-
-<script>
-    $(".list-item").click(function () {
-
-        // Select all list items 
-        var listItems = $(".list-item");
-
-        // Remove 'active' tag for all list items 
-        for (let i = 0; i < listItems.length; i++) {
-            listItems[i].classList.remove("active");
-        }
-
-        // Add 'active' tag for currently selected item 
-        this.classList.add("active");
-    });
-</script> 
 
 </html>
